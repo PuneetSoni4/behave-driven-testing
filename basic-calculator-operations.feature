@@ -19,3 +19,9 @@ Feature: Basic Calculator Operations
     Given I have a calculator
     When I multiply 2 with 3
     Then result should be 6
+
+  @ORPHAN
+  Scenario: Division : 10 / 5 is 2
+    Given I have a calculator
+    When I divide 10 by 5
+    Then result should be 2
