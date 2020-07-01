@@ -9,7 +9,7 @@ Feature: Customer Login Feature
     When Mike login to application
     Then Mike should see homepage
 
-  @BDT-2 @OPEN
+  @BDT-2 @COMPLETED
   Scenario: Username or Password does not exist
     Given The application is up and running
     When Joseph login to application
