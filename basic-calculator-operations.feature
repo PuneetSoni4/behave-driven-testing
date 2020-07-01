@@ -14,7 +14,7 @@ Feature: Basic Calculator Operations
     When I subtract 3 from 5
     Then result should be 2
 
-  @ORPHAN @multiplication
+  @ORPHAN
   Scenario: Multiplication : 2 * 3 is 6
     Given I have a calculator
     When I multiply 2 with 3
