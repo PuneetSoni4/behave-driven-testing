@@ -2,7 +2,7 @@ Feature: Basic Calculator Operations
 
   This feature will test basic calculator operations like addition, subtraction, multiplication and division.
 
-  @ORPHAN @add
+  @add @BDT-2 @OPEN
   Scenario: Addition : 5+2 is 7
     Given I have a calculator
     When I add 5 and 2
