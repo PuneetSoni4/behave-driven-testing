@@ -20,7 +20,7 @@ Feature: Basic Calculator Operations
     When I multiply 2 with 3
     Then result should be 6
 
-  @ORPHAN
+  @ORPHAN @division
   Scenario: Division : 10 / 5 is 2
     Given I have a calculator
     When I divide 10 by 5
