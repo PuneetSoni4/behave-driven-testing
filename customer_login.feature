@@ -2,7 +2,7 @@ Feature: Customer Login Feature
 
   There is need to check for customer login to web application.
 
-  @login @ORPHAN
+  @login @BDT-3
   Scenario: Valid login case
     Given The application is up and running
     And Mike is administrator
