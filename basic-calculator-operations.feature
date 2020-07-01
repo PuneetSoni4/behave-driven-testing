@@ -4,6 +4,6 @@ Feature: Basic Calculator Operations
 
   @ORPHAN @add
   Scenario: Addition : 5+2 is 7
-    Given I have two numbers 5 and 2
+    Given I have a calculator
     When I add 5 and 2
     Then result should be 7
