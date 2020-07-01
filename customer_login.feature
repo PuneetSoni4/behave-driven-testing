@@ -5,7 +5,7 @@ Feature: Customer Login Feature
   @login @BDT-1 @OPEN
   Scenario: Valid login case
     Given The application is up and running
-    And Mike is admin
+    And Mike is administrator
     When Mike login to application
     Then Mike should see homepage
 
