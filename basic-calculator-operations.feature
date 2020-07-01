@@ -25,3 +25,9 @@ Feature: Basic Calculator Operations
     Given I have a calculator
     When I divide 10 by 5
     Then result should be 2
+
+  @ORPHAN @dividebyzero
+  Scenario: 10 divide by 0 must show Division by Zero error message
+    Given I have a calculator
+    When I divide 10 by 0
+    Then I should see Division by Zero error message
