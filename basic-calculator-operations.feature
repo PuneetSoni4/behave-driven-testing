@@ -8,7 +8,7 @@ Feature: Basic Calculator Operations
     When I add 5 and 2
     Then result should be 7
 
-  @ORPHAN
+  @ORPHAN @subtract
   Scenario: Subtraction : 5 - 3 is 2
     Given I have a calculator
     When I subtract 3 from 5
