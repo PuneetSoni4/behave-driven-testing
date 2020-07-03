@@ -9,10 +9,10 @@ Feature: Customer Login Feature
     When Mike login to application
     Then Mike should see homepage
 
-  @login @BDT-3 @OPEN
+  @login @BDT-3
   Scenario: Username or Password does not exist
     Given The application is up and running
-    When Joseph login to application
+    When Jitesh login to application
     Then Login modal box must stay on the page
     And Login modal box must show Invalid Username or Password error
 
