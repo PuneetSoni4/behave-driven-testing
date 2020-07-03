@@ -1,6 +1,6 @@
 Feature: profile
 
-  @ORPHAN
+  @BDT-7 @OPEN
   Scenario: chaging profile
 
   @ORPHAN
