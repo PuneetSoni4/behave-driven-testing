@@ -9,19 +9,18 @@ Feature: Customer Login Feature
     When Mike login to application
     Then Mike should see homepage
 
-  @login @BDT-3 @OPEN
+  @login @BDT-3
   Scenario: Username or Password does not exist
     Given The application is up and running
-    When Joseph login to application
+    When Jitesh login to application
     Then Login modal box must stay on the page
     And Login modal box must show Invalid Username or Password error
 
-  @ORPHAN
+  @BDT-3
   Scenario: As a customer, I should be able to create new account
     Given The application is up and running
     And new user clicks on Sign Up button
     When User provides email address, password and confirm password
     Then password should exactly match confirm password
-    
     When User clicks on submit button
     Then new user should be created
