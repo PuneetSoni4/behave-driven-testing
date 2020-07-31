@@ -1,6 +1,6 @@
 Feature: Test Feature
 
-  @ORPHAN
+  @BDT-9 @OPEN
   Scenario: Test Scenario 1
     Given A test scenario
     When I add this scenario
