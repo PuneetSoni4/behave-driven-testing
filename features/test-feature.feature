@@ -1,6 +1,6 @@
 Feature: Test Feature
 
-  @BDT-9 @OPEN
+  @BDT-9 @OPEN @MANUAL
   Scenario: Test Scenario 1
     Given A test scenario
     When I add this scenario
