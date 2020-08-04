@@ -1,6 +1,6 @@
 Feature: Test feature file
 
-  @BDT-10 @OPEN
+  @BDT-10 @OPEN @MANUAL
   Scenario: Test scenario
     Given I have a demo
     When I add it
